@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="Create and manage your tasks efficiently with our easy-to-use online to-do list. Our responsive to-do list application, built with HTML and CSS, helps you stay organized and boost productivity. Add, edit, and delete tasks seamlessly, ensuring you never miss a deadline. Ideal for students, professionals, and anyone looking to streamline their daily activities. Start managing your tasks effectively with our intuitive and visually appealing to-do list today!"
+    />
+    <meta
+      name="keywords"
+      content="todo, to-do, to do, list, to-do list, online to-do list, task manager, HTML CSS to-do list, task management, productivity tool, responsive to-do list, daily task organizer, efficient task management, web development project
+    "
+    />
+    <meta name="author" content="Amit Kumar Patra" />
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon" />
+
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+
+    <div class="app">
+
+      <h1><u>Todo List</u></h1>
+
+      <div class="container">
+        <div id="wrapper">
+          <input type="text" placeholder="Write your task here...." />
+          <button id="add-btn">Add</button>
+        </div>
+        <div id="task">
+          <p id="pending-tasks">
+            You Have <span class="count-value">0</span> Task(<big>s</big>) To Complete Today.
+          </p>
+        </div>
+      </div>
+      <p id="error">Input cannot be empty !</p>
+    </div>
+    
+
+    <!-- java script -->
+     <script src="script.js"></script>
+  </body>
+</html>
